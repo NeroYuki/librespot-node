@@ -104,6 +104,7 @@ export interface AuthDetails {
     | "AUTHENTICATION_STORED_FACEBOOK_CREDENTIALS"
     | "AUTHENTICATION_SPOTIFY_TOKEN"
     | "AUTHENTICATION_FACEBOOK_TOKEN"
+  authData?: string
 }
 
 /**

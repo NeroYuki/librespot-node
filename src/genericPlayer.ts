@@ -60,6 +60,8 @@ export abstract class GenericPlayer {
 
     config.auth.authType = config.auth.authType ?? "AUTHENTICATION_USER_PASS"
 
+    config.auth.authData = config.auth.authData ?? ""
+
     config.backend = config.backend ?? ""
     config.bitrate = config.bitrate ?? "320"
     config.gapless = config.gapless ?? false
